@@ -1,0 +1,41 @@
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+#btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+#btn {
+    margin-top: 200px;
+    background-color: transparent;
+    padding: 25px;
+    border-radius: 20px;
+    border: 3px solid whitesmoke;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+
